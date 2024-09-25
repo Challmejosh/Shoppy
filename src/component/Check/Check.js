@@ -8,7 +8,7 @@ const Check = ({total}) => {
     const country = ["Nigeria","Usa","Uk","Canada"]
 
     return ( 
-        <div className="w-[500px] md:w-[500px] m-auto">
+        <div className="w-full sm:w-[500px] md:w-[500px] m-auto">
                 <h2 className="font-semibold text-2xl">Enter Payment Detail</h2>
             <form action="" className=" rounded-3xl  shadow m-auto p-3 grid gap-3">
                 <div className="grid gap-3">
