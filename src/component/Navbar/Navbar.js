@@ -17,7 +17,7 @@ const Navbar = ({cartQuantity}) => {
                 <h1 className="italic font-bold text-center text-xl">Shoppy</h1>
             </div>
 
-            <nav className="absolute top-14 right-0 sm:relative justify-center sm:items-center sm:aligns-center hidden sm:block" id="nav">
+            <nav className="absolute top-14 right-0 sm:relative bg-[white] justify-center sm:items-center sm:aligns-center hidden sm:block" id="nav">
                 <ul className="sm:flex gap-5 sm:justify-center sm:aligns-center items-center relative bottom-6 sm:bottom-12">
                     <Link to="/" className="p-2 cursor-pointer text-center flex items-center">
                         <img className="sm:hidden block w-6 " src="./NavPix/icons8-home-24.png" alt="" />
