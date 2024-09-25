@@ -6,7 +6,7 @@ const ItemList = ({product,like,love,confirm,productClick,handleAddToCart,btn,ad
                 {product.map(item => (
                     <div   className="bg-white cursor-pointer  rounded-lg overflow-hidden relative shadow-sm " key={item.id}>
                         <div className="shadow w-full rounded-lg mx-2 min-h-80 flex aligns-center justify-center">
-                            <img className="h-72 md:h-72" src={item.image} alt="" />
+                            <img className="h-[120px] md:h-72" src={item.image} alt="" />
                         </div>
                         
                         <div className="grid justify-start text-justify h-[200px] m-auto">
