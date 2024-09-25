@@ -86,13 +86,13 @@ const Body = () => {
                 
                     <Route path='/' exact element={<Home love={love} like={like} confirm={confirm} product={product} productClick={handleProductClick} handleAddToCart={handleAddToCart} btn={btn} addCart={addCart} total={total}/>}/>
 
-                    <Route path="/electronics" element={<Electronic confirm={confirm} product ={product.filter((item) => item.category === "electronics")} like={like} love={love} />} />
+                    <Route path="/electronics" element={<Electronic confirm={confirm} product ={product.filter((item) => item.category === "electronics")} like={like} love={love} handleAddToCart={handleAddToCart}/>} />
 
-                    <Route path="/Women" element={<Women confirm={confirm} product ={product.filter((item) => item.category === "women's clothing")} like={like} love={love} />} />
+                    <Route path="/Women" element={<Women confirm={confirm} product ={product.filter((item) => item.category === "women's clothing")} handleAddToCart={handleAddToCart} like={like} love={love} />} />
 
-                    <Route path="/Men" element={<Men confirm={confirm} product ={product.filter((item) => item.category === "men's clothing")} like={like} love={love} />} />
+                    <Route path="/Men" element={<Men confirm={confirm} product ={product.filter((item) => item.category === "men's clothing")} like={like} love={love} handleAddToCart={handleAddToCart} />} />
 
-                    <Route path="/jewelery" element={<Jewelery confirm={confirm} product ={product.filter((item) => item.category === "jewelery")} like={like} love={love} />} />
+                    <Route path="/jewelery" element={<Jewelery confirm={confirm} product ={product.filter((item) => item.category === "jewelery")} like={like} love={love} handleAddToCart={handleAddToCart}/>} />
 
 
                     
