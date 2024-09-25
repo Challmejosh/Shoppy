@@ -1,6 +1,6 @@
 import ItemList from "../itemList/ItemList";
 
-const Electronic = ({product,like,love,confirm}) => {
+const Electronic = ({product,handleAddToCart,like,love,confirm}) => {
     return ( 
         <div className="">
             {confirm ? 
