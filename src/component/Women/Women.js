@@ -1,11 +1,11 @@
 import ItemList from "../itemList/ItemList";
 
-const Women = ({product,like,love,confirm}) => {
+const Women = ({handleAddToCart,product,like,love,confirm}) => {
     return ( 
         <div className="">
             {confirm ? 
         (
-            <ItemList product={product} like={like} love={love} confirm={confirm} />
+            <ItemList handleAddToCart={handleAddToCart} product={product} like={like} love={love} confirm={confirm} />
         ) : (
             <div className="flex items-center justify-center">
                 <div className="loader"></div>
