@@ -4,7 +4,7 @@ const Cart = ({cart,total,cartDel,btn,handleRemToCart,handleAddToCart}) => {
     return ( 
         <div className="md:m-auto w-[500px] items-center  ">
             {btn ? (
-                <div className="w-[500px] items-center sm:w-[500px] flex flex-col gap-3 justify-start sm:justify-center ml-2 sm:m-auto aligns-center">
+                <div className="w-full sm:w-[500px] items-center sm:w-[500px] flex flex-col gap-3 justify-start sm:justify-center ml-2 sm:m-auto aligns-center">
                      <div className="w-[500px]  sm:w-[500px] flex flex-col gap-3 justify-start sm:justify-center ml-2 sm:m-auto aligns-center">
                 {cart.map(item => (
                     <div className="max-w-[500px] w-[400px] sm:w-[800px] md:m-auto" key={item.id}>
