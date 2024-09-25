@@ -41,7 +41,7 @@ const Cart = ({cart,total,cartDel,btn,handleRemToCart,handleAddToCart}) => {
             </div>
                 </div>
             ):(
-                <div className="md:m-auto w-[500px]  bg-gray-200 h-[400px] flex justify-center rounded-lg items-center">
+                <div className="md:m-auto w-full sm:w-[500px]  bg-gray-200 h-[400px] flex justify-center rounded-lg items-center">
                     <div className="loader"></div>
                 </div>
             )}
