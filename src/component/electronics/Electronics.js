@@ -5,7 +5,7 @@ const Electronic = ({product,handleAddToCart,like,love,confirm}) => {
         <div className="">
             {confirm ? 
         (
-            <ItemList product={product} like={like} love={love} confirm={confirm} />
+            <ItemList product={product} handleAddToCart={handleAddToCart} like={like} love={love} confirm={confirm} />
         ) : (
             <div className="flex items-center justify-center">
                 <div className="loader"></div>
