@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Cart = ({cart,total,cartDel,btn,handleRemToCart,handleAddToCart}) => {
     return ( 
-        <div className="md:m-auto w-[500px] items-center  ">
+        <div className="md:m-auto w-full sm:w-[500px] items-center  ">
             {btn ? (
                 <div className="w-full sm:w-[500px] items-center sm:w-[500px] flex flex-col gap-3 justify-start sm:justify-center ml-2 sm:m-auto aligns-center">
                      <div className="w-[500px]  sm:w-[500px] flex flex-col gap-3 justify-start sm:justify-center ml-2 sm:m-auto aligns-center">
@@ -32,12 +32,12 @@ const Cart = ({cart,total,cartDel,btn,handleRemToCart,handleAddToCart}) => {
                     </div>
                 ))}
             </div>
-            <div className="flex justify-between w-[400px] md:w-[500px] md:m-auto">
+            <div className="flex justify-between w-full sm:w-[400px] md:w-[500px] md:m-auto">
                 <p className="font-semibold">Total Price</p>
                 <h2 className="font-semibold">{total}</h2>
             </div>
             <div className="flex aligns-center justify-center" >
-                <Link to="/Checkout" className="border bg-gray-400 p-2 rounded-md m-auto text-center w-[500px] mt-8">Check Out</Link>
+                <Link to="/Checkout" className="border bg-gray-400 p-2 rounded-md m-auto text-center w-full sm:w-[500px] mt-8">Check Out</Link>
             </div>
                 </div>
             ):(
