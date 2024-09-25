@@ -8,7 +8,7 @@ const ProductDetail = ({love,like,productClick,handleAddToCart}) => {
     const {product,confirm} = useFetch("https://fakestoreapi.com/products/"+id);
     console.log(product);
     return ( 
-        <div className="bg-gray-500">
+        <div className="">
             <Detail love={love} like={like} confirm={confirm } product={product} id={id} handleAddToCart={handleAddToCart} />
             
         </div>
